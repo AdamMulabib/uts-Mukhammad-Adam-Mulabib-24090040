@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="dashboard-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <nav>
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fas fa-box"></i></a></li>
+            <li><a href="#"><i class="fas fa-dollar-sign"></i></a></li>
+            <li><a href="#"><i class="fas fa-chart-line"></i></a></li>
+            <li><a href="#"><i class="fas fa-cog"></i></a></li>
+        </ul>
+        </nav>
+    </aside>
+
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1>Dashboard</h1>
+
+      <div class="summary-wrapper">
+        <div class="summary-cards">
+            <div class="card">
+              <i class="fas fa-shopping-bag icon"></i>
+                <div class="card-text">
+                  <p class="label">Total Products</p>
+                 <h2 id="totalProducts">0</h2>
+              </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-shopping-bag icon"></i>
+                 <div class="card-text">
+                    <p class="label">Total Sales</p>
+                    <h2 id="totalSales">0</h2>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fas fa-dollar-sign icon"></i>
+                <div class="card-text">
+                  <p class="label">Total Revenue</p>
+                  <h2 id="totalRevenue">Rp 0</h2>
+                </div>         
+            </div>
+        <div class="summary-divider"></div>
+      </div>
+    </div>
+
+
+
+        <button class="btn-view-products" onclick="window.location.href='products.html'">
+        Lihat Produk
+        </button>    
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
