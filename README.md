@@ -7,7 +7,7 @@ GitHub Repository:
 https://github.com/AdamMulabib/uts-Mukhammad-Adam-Mulabib-24090040.git
 
 GitHub Pages:
-https://username.github.io/uts-nama-nim/
+[https://username.github.io/uts-nama-nim/](https://adammulabib.github.io/uts-Mukhammad-Adam-Mulabib-24090040/)
 
 Deskripsi Project
 
